@@ -39,42 +39,42 @@ public class HomeWork {
         int x = 12;
         int y = 5;
         int z = 10;
-        int w = 7;
+        int w = 2;
 
         //summa
         sum = x + y;
-        System.out.println("\nSumma ir: " + sum);
-        System.out.println("Summa ir: " + (w + z + y));
-        System.out.println("Summa ir: " + (y + z));
+        System.out.println("\nSumma x + y ir: " + sum);
+        System.out.println("Summa w + z + y ir: " + (w + z + y));
+        System.out.println("Summa y + z ir: " + (y + z));
         System.out.println("x + y + z + w = " + (x + y + z + w));
         System.out.println("\n");
 
         //starpība
         diff = x - y;
-        System.out.println("Starpība ir: " + diff);
-        System.out.println("Starpība ir: " + (w - z - y));
+        System.out.println("Starpība x - y ir: " + diff);
+        System.out.println("Starpība w - z - y ir: " + (w - z - y));
         System.out.println("x - y - z - w = " + (x - y - z - w));
         System.out.println("\n");
 
         //reizināšana
         multiplication = x * y;
-        System.out.println("Reizinājums ir: " + (x * z));
-        System.out.println("Reizinājums ir: " + (multiplication * y));
-        System.out.println("Reizinājums ir: " + multiplication);
+        System.out.println("Reizinājums x * z ir: " + (x * z));
+        System.out.println("Reizinājums x * y * y ir: " + (multiplication * y));
+        System.out.println("Reizinājums x * y ir: " + multiplication);
         System.out.println("x * y * z * w = " + (x * y * z * w));
         System.out.println("\n");
 
         //dalīšana
         division = z / y;
-        System.out.println("Dalījums ir: " + division);
-        System.out.println("Dalījums ir: " + (division/y));
-        System.out.println("Dalījums ir: " + (multiplication/division));
+        System.out.println("Dalījums z/y ir: " + division);
+        System.out.println("Dalījums ((z/y)/w) ir: " + (division/w));
+        System.out.println("Dalījums (x*y)/(z/y) ir: " + (multiplication/division));
         System.out.println("\n");
 
         //modulis
-        modulo = z%2;
+        modulo = x%2;
         System.out.println("Modulis ir: " + modulo);
-        System.out.println("Modulis ir: " + w%3);
-        System.out.println("Modulis ir: " + w%5);
+        System.out.println("Modulis ir: " + x%3);
+        System.out.println("Modulis ir: " + x%5);
     }
 }
