@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 
 public class HomeWork {
     public static void main(String[] args) {
-        //majas darbs par valsti
+        //Valsts
 
         String country = "Spānija";
         String suffix = "s";
@@ -36,39 +36,45 @@ public class HomeWork {
         int multiplication;
         double division;
         double modulo;
-        int x = 20;
-        int y = 200;
-        int z = 50;
-        int w = 500;
+        int x = 12;
+        int y = 5;
+        int z = 10;
+        int w = 7;
 
+        //summa
         sum = x + y;
         System.out.println("\nsumma ir: "+ sum);
         System.out.println("summa ir: "+(w + z + y));
         System.out.println("summa ir: "+(y + z));
+        System.out.println("x + y + z + w = " + (x + y + z + w));
         System.out.println("\n");
 
+        //starpiba
         diff = x - y;
         System.out.println("starpiba ir: "+ diff);
         System.out.println("starpiba ir: "+(w - z - y));
-        System.out.println("starpiba ir: "+ (w - diff));
+        System.out.println("x - y - z - w = " + (x - y - z - w));
         System.out.println("\n");
 
+        //reizinasana
         multiplication = x * y;
         System.out.println("reizinajums ir: "+ x*z);
         System.out.println("reizinajums ir: "+ (multiplication * y));
         System.out.println("reizinajums ir: "+ multiplication);
+        System.out.println("x * y * z * w = " + (x * y * z * w));
         System.out.println("\n");
 
-        division = y / x;
+        //dalisana
+        division = z / y;
         System.out.println("dalijums ir: "+ division);
         System.out.println("dalijums ir: "+ (division/y));
-        System.out.println("dalijums ir: "+ (division/y)/3);
+        System.out.println("dalijums ir: "+ (multiplication/division));
         System.out.println("\n");
 
-        modulo = z%7;
+        //modulis
+        modulo = z%2;
         System.out.println("modulis ir: "+ modulo);
-        System.out.println("modulis ir: "+ w%9);
         System.out.println("modulis ir: "+ w%3);
-        System.out.println("\n");
+        System.out.println("modulis ir: "+ w%5);
     }
 }
