@@ -37,6 +37,6 @@ public abstract class HomeWorkTwo {
 
         // 8. uzdevums
         System.out.println("\n8. uzdevums: Metode Average()");
-        System.out.println(Uzdevums8.average(10, 20, 30));
+        System.out.println(Uzdevums8.average(10, 20.9, 30));
     }
 }
