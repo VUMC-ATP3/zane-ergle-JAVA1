@@ -51,11 +51,11 @@ class Visit {
     }
 
 
-        public String toString() {
-            if (this.customer != null) {
-                return "Visit(" + this.date + ", " + this.customer.toString() + ", " + this.serviceExpense + ", " + this.productExpense + ", " + this.getTotalExpense() + ")";
-            }
-
-            return "";
+    public String toString() {
+        if (this.customer != null) {
+            return "Visit(" + this.date + ", " + this.customer.toString() + ", " + this.serviceExpense + ", " + this.productExpense + ", " + this.getTotalExpense() + ")";
         }
+
+        return "";
+    }
 }
